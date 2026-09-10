@@ -1,0 +1,27 @@
+{
+  "id": "porcelain",
+  "name": "Porcelain",
+  "group": "high-contrast",
+  "description": "Near-white neutral signals with stronger text and boundaries.",
+  "origin": "collection",
+  "aliases": [],
+  "colors": {
+    "canvas": "#0B0B0B",
+    "panel": "#17181A",
+    "panelRaised": "#1F2023",
+    "control": "#3B3E43",
+    "controlHover": "#27282B",
+    "line": "#2E2F33",
+    "lineStrong": "#989EA6",
+    "text": "#F4F5F6",
+    "textMuted": "#BDC3CB",
+    "accent": "#F0F0E9",
+    "accentBright": "#FFFFFF",
+    "accentMuted": "#858781",
+    "focus": "#FFFFFF",
+    "meter": "#F0F0E9",
+    "success": "#63D38D",
+    "warning": "#F0B86E",
+    "record": "#F27683"
+  }
+}

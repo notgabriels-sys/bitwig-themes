@@ -1,0 +1,29 @@
+name: Compatibility or legibility report
+description: Report an actual Bitwig surface that needs attention.
+title: "[Compatibility] "
+body:
+  - type: input
+    id: theme
+    attributes:
+      label: Theme name
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Bitwig version, Theme Editor version and operating system
+      placeholder: "Bitwig 6.1.1, Theme Editor 2.3.2, macOS ..."
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What happened, and where?
+      description: Name the control or text, reproduction steps, expected appearance and actual result.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshot or exporter output
+      description: Optional. Use an actual DAW capture and remove private project names, paths and unreleased material.

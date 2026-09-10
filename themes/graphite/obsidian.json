@@ -1,0 +1,27 @@
+{
+  "id": "obsidian",
+  "name": "Obsidian",
+  "group": "graphite",
+  "description": "The original bright silver accent, including its neutral warning token.",
+  "origin": "granular-freeze",
+  "aliases": [],
+  "colors": {
+    "canvas": "#0B0B0B",
+    "panel": "#17181A",
+    "panelRaised": "#1F2023",
+    "control": "#3B3E43",
+    "controlHover": "#27282B",
+    "line": "#2E2F33",
+    "lineStrong": "#585C62",
+    "text": "#E9EAEC",
+    "textMuted": "#A0A4AB",
+    "accent": "#D2D7DD",
+    "accentBright": "#E9EAEC",
+    "accentMuted": "#696C70",
+    "focus": "#E9EAEC",
+    "meter": "#D2D7DD",
+    "success": "#63D38D",
+    "warning": "#A0A4AB",
+    "record": "#F27683"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "phosphor",
+  "name": "Phosphor",
+  "group": "high-contrast",
+  "description": "Bright pale-green signals with stronger neutral text and boundaries.",
+  "origin": "collection",
+  "aliases": [],
+  "colors": {
+    "canvas": "#0B0B0B",
+    "panel": "#17181A",
+    "panelRaised": "#1F2023",
+    "control": "#3B3E43",
+    "controlHover": "#27282B",
+    "line": "#2E2F33",
+    "lineStrong": "#989EA6",
+    "text": "#F4F5F6",
+    "textMuted": "#BDC3CB",
+    "accent": "#C3E8B8",
+    "accentBright": "#E0F5D8",
+    "accentMuted": "#708669",
+    "focus": "#E0F5D8",
+    "meter": "#C3E8B8",
+    "success": "#63D38D",
+    "warning": "#F0B86E",
+    "record": "#F27683"
+  }
+}

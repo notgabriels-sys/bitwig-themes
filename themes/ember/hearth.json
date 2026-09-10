@@ -1,0 +1,27 @@
+{
+  "id": "hearth",
+  "name": "Hearth",
+  "group": "ember",
+  "description": "Soft burnt-orange signals with a warm gold focus.",
+  "origin": "collection",
+  "aliases": [],
+  "colors": {
+    "canvas": "#0B0B0B",
+    "panel": "#17181A",
+    "panelRaised": "#1F2023",
+    "control": "#3B3E43",
+    "controlHover": "#27282B",
+    "line": "#2E2F33",
+    "lineStrong": "#585C62",
+    "text": "#E9EAEC",
+    "textMuted": "#A0A4AB",
+    "accent": "#CA9670",
+    "accentBright": "#E7BC91",
+    "accentMuted": "#72543D",
+    "focus": "#E7BC91",
+    "meter": "#CA9670",
+    "success": "#63D38D",
+    "warning": "#F0B86E",
+    "record": "#F27683"
+  }
+}

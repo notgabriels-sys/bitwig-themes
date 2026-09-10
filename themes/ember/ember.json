@@ -1,0 +1,27 @@
+{
+  "id": "ember",
+  "name": "Ember",
+  "group": "ember",
+  "description": "The original muted red-clay accent and warm amber focus.",
+  "origin": "granular-freeze",
+  "aliases": [],
+  "colors": {
+    "canvas": "#0B0B0B",
+    "panel": "#17181A",
+    "panelRaised": "#1F2023",
+    "control": "#3B3E43",
+    "controlHover": "#27282B",
+    "line": "#2E2F33",
+    "lineStrong": "#585C62",
+    "text": "#E9EAEC",
+    "textMuted": "#A0A4AB",
+    "accent": "#B97A6C",
+    "accentBright": "#F0B86E",
+    "accentMuted": "#704A42",
+    "focus": "#F0B86E",
+    "meter": "#B97A6C",
+    "success": "#63D38D",
+    "warning": "#F0B86E",
+    "record": "#F27683"
+  }
+}

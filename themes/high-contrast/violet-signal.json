@@ -1,0 +1,27 @@
+{
+  "id": "violet-signal",
+  "name": "Violet Signal",
+  "group": "high-contrast",
+  "description": "Pale lavender signals with stronger neutral text and boundaries.",
+  "origin": "collection",
+  "aliases": [],
+  "colors": {
+    "canvas": "#0B0B0B",
+    "panel": "#17181A",
+    "panelRaised": "#1F2023",
+    "control": "#3B3E43",
+    "controlHover": "#27282B",
+    "line": "#2E2F33",
+    "lineStrong": "#989EA6",
+    "text": "#F4F5F6",
+    "textMuted": "#BDC3CB",
+    "accent": "#D7C5FF",
+    "accentBright": "#EEE4FF",
+    "accentMuted": "#796D91",
+    "focus": "#EEE4FF",
+    "meter": "#D7C5FF",
+    "success": "#63D38D",
+    "warning": "#F0B86E",
+    "record": "#F27683"
+  }
+}

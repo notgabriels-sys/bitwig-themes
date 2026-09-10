@@ -1,0 +1,27 @@
+{
+  "id": "lichen",
+  "name": "Lichen",
+  "group": "botanical",
+  "description": "Muted yellow-green signals with a pale mineral focus.",
+  "origin": "collection",
+  "aliases": [],
+  "colors": {
+    "canvas": "#0B0B0B",
+    "panel": "#17181A",
+    "panelRaised": "#1F2023",
+    "control": "#3B3E43",
+    "controlHover": "#27282B",
+    "line": "#2E2F33",
+    "lineStrong": "#585C62",
+    "text": "#E9EAEC",
+    "textMuted": "#A0A4AB",
+    "accent": "#ADB68A",
+    "accentBright": "#D2D9B1",
+    "accentMuted": "#61684A",
+    "focus": "#D2D9B1",
+    "meter": "#ADB68A",
+    "success": "#63D38D",
+    "warning": "#F0B86E",
+    "record": "#F27683"
+  }
+}

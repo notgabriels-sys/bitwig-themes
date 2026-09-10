@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="dark">
+    <meta name="theme-color" content="#101115">
+    <meta name="description" content="50 open-source colour palettes in 10 families, drawn from Granular Freeze. Explore the colours and export a theme with the community Bitwig Theme Editor workflow.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Bitwig Themes — 50 open-source palettes">
+    <meta property="og:description" content="Ten colour families. A graphite foundation. An open collection drawn from Granular Freeze.">
+    <meta property="og:url" content="https://notgabriels-sys.github.io/bitwig-themes/">
+    <link rel="canonical" href="https://notgabriels-sys.github.io/bitwig-themes/">
+    <link rel="stylesheet" href="assets/gallery.css">
+    <title>Bitwig Themes — 50 open-source palettes</title>
+    <script src="assets/gallery.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#collection">Skip to themes</a>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="wordmark" href="./" aria-label="Bitwig Themes home"><span class="mark" aria-hidden="true"></span>BITWIG THEMES<span class="wordmark-suffix">/ OPEN COLLECTION</span></a>
+        <nav class="header-links" aria-label="Primary navigation">
+          <a href="https://github.com/notgabriels-sys/bitwig-themes/blob/main/docs/INSTALL.md">Installation <span aria-hidden="true">↗</span></a>
+          <a class="github-link" href="https://github.com/notgabriels-sys/bitwig-themes">GitHub <span aria-hidden="true">↗</span></a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="intro" aria-labelledby="page-title">
+          <div class="intro-copy">
+            <p class="eyebrow"><span class="rule" aria-hidden="true"></span>FROM THE GRANULAR FREEZE PALETTE</p>
+            <h1 id="page-title">A different<br>shade of <em>focus.</em></h1>
+            <p class="intro-description">Fifty colour palettes. Ten families. Graphite surfaces, clear type, and a little room for colour.</p>
+            <p class="intro-detail">An open-source collection for the community Bitwig Theme Editor workflow. Explore a palette below, then build from your current version’s default theme.</p>
+            <a class="text-link" href="#collection">Explore the collection <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="collection-signature" aria-label="50 palettes in 10 colour families">
+            <span class="signature-label">THE COLOUR INDEX</span>
+            <div class="signature-number">50<span aria-hidden="true">/</span></div>
+            <div class="signature-bottom"><span>PALETTES</span><span>10 FAMILIES</span></div>
+            <div class="signature-spectrum" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          </div>
+        </section>
+
+        <aside class="compatibility-note" aria-label="Compatibility and preview status">
+          <span class="status-label">PREVIEW ONLY</span>
+          <p>These are palette studies, not DAW screenshots. This unofficial collection uses the community Bitwig Theme Editor; the new theme set has not been host-verified. <a href="https://github.com/notgabriels-sys/bitwig-themes/blob/main/docs/INSTALL.md">Read compatibility &amp; installation <span aria-hidden="true">↗</span></a></p>
+        </aside>
+
+        <section class="inspector-section" aria-labelledby="inspector-title">
+          <div class="section-heading"><h2 id="inspector-title">Palette study</h2><p>SELECT A THEME TO EXPLORE ITS COLOURS</p></div>
+          <div class="inspector" id="inspector" aria-busy="true">
+            <div class="palette-study" id="palette-study">
+              <div class="study-topline"><span id="selected-group">COLOUR FAMILY</span><span>PREVIEW ONLY · COLOUR &amp; STATE</span></div>
+              <div class="study-main">
+                <div class="study-type"><p class="study-kicker">SURFACE / TYPE / ACCENT</p><h3 id="selected-name" tabindex="-1">Loading palettes…</h3><p class="study-sentence">Space to listen.<br>Clarity at a glance.</p></div>
+                <div class="surface-stack" aria-label="Surface colour samples"><div>CANVAS</div><div>PANEL</div><div>RAISED</div></div>
+              </div>
+              <div class="state-studies" aria-label="Illustrative control states, not audio controls">
+                <div class="state-study"><span class="state-caption">DEFAULT</span><span class="sample-control">Control</span></div>
+                <div class="state-study"><span class="state-caption">HOVER</span><span class="sample-control sample-hover">Control</span></div>
+                <div class="state-study"><span class="state-caption">SELECTED</span><span class="sample-control sample-selected">Selected</span></div>
+                <div class="state-study"><span class="state-caption">FOCUS</span><span class="sample-control sample-focus">Control</span></div>
+              </div>
+              <div class="primary-swatches" id="primary-swatches" aria-label="Primary palette colours"></div>
+            </div>
+            <div class="palette-details">
+              <div class="detail-top"><span class="eyebrow" id="selected-id">THEME DETAILS</span><span class="detail-index" id="selected-index">— / 50</span></div>
+              <p id="selected-description" class="selected-description">The collection is loading.</p>
+              <div class="token-list" id="token-list" aria-label="Selected theme colour values"></div>
+              <div class="palette-actions"><a id="download-theme" class="action primary-action" aria-disabled="true">Download palette JSON <span aria-hidden="true">↓</span></a><button type="button" id="copy-command" class="action secondary-action" disabled>Copy export command <span aria-hidden="true">⧉</span></button></div>
+              <p class="export-note">The JSON is a palette source. Export a <code>.bte</code> using a default theme from your installed Bitwig version.</p>
+              <div id="copy-fallback" class="copy-fallback" hidden><label for="command-text">Select and copy this command:</label><textarea id="command-text" rows="4" readonly spellcheck="false"></textarea></div>
+              <p id="action-status" class="action-status" role="status" aria-live="polite"></p>
+            </div>
+          </div>
+        </section>
+
+        <section class="collection" id="collection" aria-labelledby="collection-title">
+          <div class="section-heading collection-heading"><div><p class="eyebrow">THE FULL INDEX</p><h2 id="collection-title">Find your atmosphere.</h2></div><label class="search-field"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg><span class="visually-hidden">Search theme names, families and descriptions</span><input type="search" id="theme-search" placeholder="Search palettes…" autocomplete="off"></label></div>
+          <div class="filter-row"><div id="group-filters" class="group-filters" role="group" aria-label="Filter themes by family"></div><p id="result-count" class="result-count" role="status" aria-live="polite">Loading collection…</p></div>
+          <div class="theme-grid" id="theme-grid" aria-label="Theme collection"></div>
+          <div class="empty-state" id="empty-state" hidden><h3>No palettes found.</h3><p>Try another name or colour family.</p><button class="action secondary-action" id="reset-filters" type="button">Clear filters</button></div>
+          <div class="load-error" id="load-error" role="alert" hidden><h3>The collection could not load.</h3><p>Open this gallery through a web server, or visit the repository to browse the palette source.</p><a href="https://github.com/notgabriels-sys/bitwig-themes">Browse the repository ↗</a></div>
+          <noscript><p class="noscript-message">JavaScript enables palette selection and filters. You can browse all palettes and installation instructions in the <a href="https://github.com/notgabriels-sys/bitwig-themes">GitHub repository</a>.</p></noscript>
+        </section>
+
+        <section class="contribute-note" aria-label="Contributing"><div><p class="eyebrow">OPEN SOURCE / OPEN TO REFINEMENT</p><h2>Make it your own.</h2><p>Try a palette, report your Bitwig version and results, or contribute a thoughtful variation. Real host feedback helps this collection improve.</p></div><a class="action secondary-action" href="https://github.com/notgabriels-sys/bitwig-themes">Explore on GitHub <span aria-hidden="true">↗</span></a></section>
+      </main>
+
+      <footer class="site-footer"><div><a class="footer-title" href="https://github.com/notgabriels-sys">GABRIEL GARCÍA ALONSO</a><p>Colour studies drawn from Granular Freeze.</p></div><p>Independent community project.<br>Not affiliated with or endorsed by Bitwig.</p><a href="https://github.com/notgabriels-sys/bitwig-themes/blob/main/LICENSE">MIT license <span aria-hidden="true">↗</span></a></footer>
+    </div>
+  </body>
+</html>

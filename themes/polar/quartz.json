@@ -1,0 +1,27 @@
+{
+  "id": "quartz",
+  "name": "Quartz",
+  "group": "polar",
+  "description": "Pale silver-lavender signals with a near-white focus.",
+  "origin": "collection",
+  "aliases": [],
+  "colors": {
+    "canvas": "#0B0B0B",
+    "panel": "#17181A",
+    "panelRaised": "#1F2023",
+    "control": "#3B3E43",
+    "controlHover": "#27282B",
+    "line": "#2E2F33",
+    "lineStrong": "#585C62",
+    "text": "#E9EAEC",
+    "textMuted": "#A0A4AB",
+    "accent": "#C4C4D7",
+    "accentBright": "#E1E0ED",
+    "accentMuted": "#6B6C7C",
+    "focus": "#E1E0ED",
+    "meter": "#C4C4D7",
+    "success": "#63D38D",
+    "warning": "#F0B86E",
+    "record": "#F27683"
+  }
+}

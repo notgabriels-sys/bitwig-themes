@@ -1,0 +1,27 @@
+{
+  "id": "dusk",
+  "name": "Dusk",
+  "group": "violet",
+  "description": "Dusty plum-violet signals with a gently lifted focus.",
+  "origin": "collection",
+  "aliases": [],
+  "colors": {
+    "canvas": "#0B0B0B",
+    "panel": "#17181A",
+    "panelRaised": "#1F2023",
+    "control": "#3B3E43",
+    "controlHover": "#27282B",
+    "line": "#2E2F33",
+    "lineStrong": "#585C62",
+    "text": "#E9EAEC",
+    "textMuted": "#A0A4AB",
+    "accent": "#AF92BF",
+    "accentBright": "#D0B7DD",
+    "accentMuted": "#614E6C",
+    "focus": "#D0B7DD",
+    "meter": "#AF92BF",
+    "success": "#63D38D",
+    "warning": "#F0B86E",
+    "record": "#F27683"
+  }
+}

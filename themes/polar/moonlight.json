@@ -1,0 +1,27 @@
+{
+  "id": "moonlight",
+  "name": "Moonlight",
+  "group": "polar",
+  "description": "Pale blue-silver signals with a cool luminous focus.",
+  "origin": "collection",
+  "aliases": [],
+  "colors": {
+    "canvas": "#0B0B0B",
+    "panel": "#17181A",
+    "panelRaised": "#1F2023",
+    "control": "#3B3E43",
+    "controlHover": "#27282B",
+    "line": "#2E2F33",
+    "lineStrong": "#585C62",
+    "text": "#E9EAEC",
+    "textMuted": "#A0A4AB",
+    "accent": "#B8C4E0",
+    "accentBright": "#D8E1F4",
+    "accentMuted": "#636E85",
+    "focus": "#D8E1F4",
+    "meter": "#B8C4E0",
+    "success": "#63D38D",
+    "warning": "#F0B86E",
+    "record": "#F27683"
+  }
+}

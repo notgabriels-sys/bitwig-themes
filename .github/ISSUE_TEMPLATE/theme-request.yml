@@ -1,0 +1,10 @@
+name: Theme idea
+description: Suggest a concrete variation or improvement.
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you change?
+      description: Describe the colour family, practical use and how it fits the graphite surface direction.
+    validations:
+      required: true

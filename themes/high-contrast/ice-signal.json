@@ -1,0 +1,27 @@
+{
+  "id": "ice-signal",
+  "name": "Ice Signal",
+  "group": "high-contrast",
+  "description": "Bright pale-blue signals with stronger neutral text and boundaries.",
+  "origin": "collection",
+  "aliases": [],
+  "colors": {
+    "canvas": "#0B0B0B",
+    "panel": "#17181A",
+    "panelRaised": "#1F2023",
+    "control": "#3B3E43",
+    "controlHover": "#27282B",
+    "line": "#2E2F33",
+    "lineStrong": "#989EA6",
+    "text": "#F4F5F6",
+    "textMuted": "#BDC3CB",
+    "accent": "#BEE7F5",
+    "accentBright": "#E4F6FC",
+    "accentMuted": "#6A828C",
+    "focus": "#E4F6FC",
+    "meter": "#BEE7F5",
+    "success": "#63D38D",
+    "warning": "#F0B86E",
+    "record": "#F27683"
+  }
+}

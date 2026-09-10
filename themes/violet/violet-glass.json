@@ -1,0 +1,27 @@
+{
+  "id": "violet-glass",
+  "name": "Violet Glass",
+  "group": "violet",
+  "description": "Clear blue-violet signals for a cooler violet variation.",
+  "origin": "collection",
+  "aliases": [],
+  "colors": {
+    "canvas": "#0B0B0B",
+    "panel": "#17181A",
+    "panelRaised": "#1F2023",
+    "control": "#3B3E43",
+    "controlHover": "#27282B",
+    "line": "#2E2F33",
+    "lineStrong": "#585C62",
+    "text": "#E9EAEC",
+    "textMuted": "#A0A4AB",
+    "accent": "#8F9DE7",
+    "accentBright": "#B9C2F4",
+    "accentMuted": "#49557C",
+    "focus": "#B9C2F4",
+    "meter": "#8F9DE7",
+    "success": "#63D38D",
+    "warning": "#F0B86E",
+    "record": "#F27683"
+  }
+}

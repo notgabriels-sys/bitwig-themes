@@ -1,0 +1,27 @@
+{
+  "id": "ultraviolet",
+  "name": "Ultraviolet",
+  "group": "violet",
+  "description": "The original restrained neon-violet accent and lavender focus.",
+  "origin": "granular-freeze",
+  "aliases": [],
+  "colors": {
+    "canvas": "#0B0B0B",
+    "panel": "#17181A",
+    "panelRaised": "#1F2023",
+    "control": "#3B3E43",
+    "controlHover": "#27282B",
+    "line": "#2E2F33",
+    "lineStrong": "#585C62",
+    "text": "#E9EAEC",
+    "textMuted": "#A0A4AB",
+    "accent": "#A78BFA",
+    "accentBright": "#B8A2FF",
+    "accentMuted": "#55487E",
+    "focus": "#B8A2FF",
+    "meter": "#A78BFA",
+    "success": "#63D38D",
+    "warning": "#F0B86E",
+    "record": "#F27683"
+  }
+}

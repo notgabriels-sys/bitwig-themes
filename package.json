@@ -1,0 +1,15 @@
+{
+  "name": "gabriel-bitwig-themes",
+  "version": "0.1.0",
+  "private": true,
+  "description": "50 graphite-based colour themes for unofficial Bitwig Theme Editor workflows, derived from Granular Freeze.",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "node scripts/build-catalog.mjs && node scripts/build-previews.mjs",
+    "check": "node scripts/validate.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "package": "python3 scripts/package-release.py"
+  }
+}

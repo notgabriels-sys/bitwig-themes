@@ -1,0 +1,27 @@
+{
+  "id": "icefield",
+  "name": "Icefield",
+  "group": "polar",
+  "description": "Greyed cyan-white signals with a quiet mineral finish.",
+  "origin": "collection",
+  "aliases": [],
+  "colors": {
+    "canvas": "#0B0B0B",
+    "panel": "#17181A",
+    "panelRaised": "#1F2023",
+    "control": "#3B3E43",
+    "controlHover": "#27282B",
+    "line": "#2E2F33",
+    "lineStrong": "#585C62",
+    "text": "#E9EAEC",
+    "textMuted": "#A0A4AB",
+    "accent": "#B4D2D1",
+    "accentBright": "#D7E9E7",
+    "accentMuted": "#607776",
+    "focus": "#D7E9E7",
+    "meter": "#B4D2D1",
+    "success": "#63D38D",
+    "warning": "#F0B86E",
+    "record": "#F27683"
+  }
+}

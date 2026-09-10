@@ -1,0 +1,27 @@
+{
+  "id": "cinder",
+  "name": "Cinder",
+  "group": "ember",
+  "description": "Greyed terracotta signals with a pale clay focus.",
+  "origin": "collection",
+  "aliases": [],
+  "colors": {
+    "canvas": "#0B0B0B",
+    "panel": "#17181A",
+    "panelRaised": "#1F2023",
+    "control": "#3B3E43",
+    "controlHover": "#27282B",
+    "line": "#2E2F33",
+    "lineStrong": "#585C62",
+    "text": "#E9EAEC",
+    "textMuted": "#A0A4AB",
+    "accent": "#B48A80",
+    "accentBright": "#D9B2A6",
+    "accentMuted": "#65504A",
+    "focus": "#D9B2A6",
+    "meter": "#B48A80",
+    "success": "#63D38D",
+    "warning": "#F0B86E",
+    "record": "#F27683"
+  }
+}

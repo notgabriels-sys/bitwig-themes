@@ -1,0 +1,27 @@
+{
+  "id": "bronze",
+  "name": "Bronze",
+  "group": "copper",
+  "description": "Earthy bronze signals with a light sand focus.",
+  "origin": "collection",
+  "aliases": [],
+  "colors": {
+    "canvas": "#0B0B0B",
+    "panel": "#17181A",
+    "panelRaised": "#1F2023",
+    "control": "#3B3E43",
+    "controlHover": "#27282B",
+    "line": "#2E2F33",
+    "lineStrong": "#585C62",
+    "text": "#E9EAEC",
+    "textMuted": "#A0A4AB",
+    "accent": "#B5A17B",
+    "accentBright": "#D7C7A3",
+    "accentMuted": "#655A43",
+    "focus": "#D7C7A3",
+    "meter": "#B5A17B",
+    "success": "#63D38D",
+    "warning": "#F0B86E",
+    "record": "#F27683"
+  }
+}
