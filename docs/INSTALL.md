@@ -17,7 +17,9 @@ The upstream README also shows older paths without the `versions` component. Use
 
 ## 2. Generate your choice
 
-Install Node.js 22 or later, then download the repository ZIP or clone it. In a terminal opened at the repository folder, run:
+**In your browser:** open the [gallery](https://notgabriels-sys.github.io/bitwig-themes/), choose a theme, then select your version's `default.bte` in the theme details. Download the generated `.bte` when validation succeeds. The file stays in the browser; it is not uploaded or stored on a server. Files above 2 MiB are rejected. Choosing a different theme regenerates the download from the same local default. Clear the selected file when finished.
+
+**With the optional CLI:** install Node.js 22 or later, then download the repository ZIP or clone it. In a terminal opened at the repository folder, run:
 
 ```sh
 node scripts/export-bitwig.mjs --list
@@ -38,7 +40,7 @@ node scripts/export-bitwig.mjs --theme ultraviolet --base "$env:APPDATA\.bitwig-
 
 To generate all 50, use `--all` instead of `--theme ultraviolet`, and make `--out` a directory. Outputs are grouped as `<output>/<family>/<theme-id>.bte`. Existing output files are protected: choose a new output location for a fresh export.
 
-The exporter prints how many actual colour keys it replaced. It rejects sparse or malformed defaults, duplicate keys, invalid colours and unknown theme names. Unmapped colours, alpha values and the `Gradient` setting are preserved. Token contrast checks do not establish contrast across every Bitwig surface or alpha blend.
+Both routes use the same renderer and validate the complete default file. They reject sparse or malformed defaults, duplicate keys and invalid colours. The CLI also rejects unknown theme names and existing output files. Unmapped colours, alpha values and the `Gradient` setting are preserved. Token contrast checks do not establish contrast across every Bitwig surface or alpha blend.
 
 ## 3. Apply and inspect
 

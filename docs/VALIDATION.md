@@ -1,6 +1,14 @@
 # Validation scope
 
-Release 0.1.0 is an initial public preview of the collection and exporter. Palette data can be inspected and reused now. Visual compatibility of the full set inside Bitwig remains unverified.
+Release 0.1.1 adds browser-local export to the initial public preview. Palette data can be inspected and reused now. Visual compatibility of the full set inside Bitwig remains unverified.
+
+## Browser export update · 0.1.1
+
+All **34 tests passed** on macOS with Node.js 26.0.0: the 20 original regressions plus 14 browser-export tests. The added cases cover a 2 MiB limit before reading, malformed/sparse inputs, complete shared-renderer output, theme changes during reads, overlapping file reads, invalid replacements, clear/cancel behaviour, Blob cleanup and safe text handling. The export helper makes no network calls and stores file contents only in browser memory.
+
+Manual browser checks used an explicitly synthetic 220-key base, not a Bitwig factory default. Selecting Ultraviolet enabled `ultraviolet.bte`; selecting Ember regenerated `ember.bte`. The actual downloaded Ember file matched the shared renderer byte for byte. A sparse input displayed its validation error and removed the previous download; Clear file reset the state. The 390×844 viewport had no horizontal overflow. This verifies browser export behaviour, not visual Bitwig compatibility.
+
+Both browser and CLI use the unchanged shared BTE renderer; the version-specific structural evidence below continues to describe that renderer. No new host acceptance is claimed.
 
 ## Automated checks
 

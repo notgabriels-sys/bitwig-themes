@@ -8,7 +8,9 @@
 
 ## Start here
 
-Choose a theme in the gallery, then generate a complete `.bte` file using the `default.bte` exported by **your installed version** of [Bitwig Theme Editor](https://github.com/Berikai/bitwig-theme-editor). Node.js 22 or later is required for the exporter; no npm dependencies are needed.
+Choose a theme in the [gallery](https://notgabriels-sys.github.io/bitwig-themes/), select the `default.bte` exported by **your installed version** of [Bitwig Theme Editor](https://github.com/Berikai/bitwig-theme-editor), and download the complete `.bte`. The file is processed locally in your browser and is not uploaded. No Node.js installation is needed for this route.
+
+For terminal use, the optional CLI requires Node.js 22 or later and has no npm dependencies:
 
 ```sh
 git clone https://github.com/notgabriels-sys/bitwig-themes.git
@@ -32,7 +34,7 @@ Six palettes retain the exact colour tokens in the current Granular Freeze appea
 ## What is included
 
 - **50 individual JSON palettes** grouped under `themes/`, plus a combined `catalog.json`.
-- **Interactive gallery** with search, family filters, colour values and theme downloads.
+- **Interactive gallery** with search, family filters, colour values and local `.bte` generation from your own default file.
 - **SVG palette previews** generated directly from the published colours.
 - **A local `.bte` exporter** that keeps your default file's full key structure, transparency, gradient setting and unmapped colours.
 - **Validation and regression tests**, contribution guidance and issue templates.
@@ -43,7 +45,7 @@ Export all themes for your installed version:
 node scripts/export-bitwig.mjs --all --base /path/to/default.bte --out ./exports
 ```
 
-The exporter creates new files. It does not patch Bitwig, replace the active theme or overwrite an existing output. No Bitwig JAR, factory default theme, audio, plug-in binary or external asset is included.
+The CLI creates new files and refuses to overwrite an existing output. The browser offers the generated file as a download. Neither route patches Bitwig or replaces the active theme. No Bitwig JAR, factory default theme, audio, plug-in binary or external asset is included.
 
 ## Develop and contribute
 

@@ -1,5 +1,5 @@
 /* A dependency-free palette study. No audio or DAW UI is simulated. */
-"use strict";
+import { initBrowserExport } from "./browser-export.js";
 
 (() => {
   const byId = (id) => document.getElementById(id);
@@ -10,6 +10,10 @@
     fallback: byId("copy-fallback"), command: byId("command-text"),
   };
   const state = { catalog: null, group: "all", search: "", selected: null };
+  const browserExport = initBrowserExport({
+    fileInput: byId("base-theme-file"), downloadLink: byId("download-bte"),
+    status: byId("browser-export-status"), clearButton: byId("clear-base-theme"),
+  });
   const primaryTokens = [["canvas", "Canvas"], ["panelRaised", "Raised"], ["accent", "Accent"], ["textMuted", "Muted"], ["text", "Text"]];
   const detailTokens = [["canvas", "Canvas"], ["panel", "Panel"], ["text", "Text"], ["textMuted", "Muted text"], ["accent", "Accent"], ["focus", "Focus"]];
   const escapeHash = (id) => `#theme=${encodeURIComponent(id)}`;
@@ -34,6 +38,7 @@
 
   function selectTheme(theme, updateUrl = true) {
     state.selected = theme;
+    browserExport.setTheme(theme);
     for (const [name, colour] of Object.entries(theme.colors)) elements.inspector.style.setProperty(`--t-${name}`, colour);
     const group = groupFor(theme.group);
     byId("selected-group").textContent = group ? group.name.toUpperCase() : theme.group.toUpperCase();

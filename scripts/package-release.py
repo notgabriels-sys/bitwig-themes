@@ -11,13 +11,13 @@ VERSION = json.loads((ROOT / 'package.json').read_text())['version']
 DEST = ROOT / 'dist'
 DEST.mkdir(exist_ok=True)
 archive = DEST / f'gabriel-bitwig-themes-{VERSION}.zip'
-root_files = ['README.md', 'LICENSE', 'CONTRIBUTING.md', 'package.json', 'catalog.json', 'index.html', '.nojekyll']
+root_files = ['README.md', 'LICENSE', 'CONTRIBUTING.md', 'CHANGELOG.md', 'package.json', 'catalog.json', 'index.html', '.nojekyll']
 public_files = root_files + [
     'docs/INSTALL.md', 'docs/PALETTES.md', 'docs/PROVENANCE.md', 'docs/VALIDATION.md',
-    'assets/gallery.css', 'assets/gallery.js', 'assets/previews/overview.svg',
+    'assets/gallery.css', 'assets/gallery.js', 'assets/browser-export.js', 'assets/previews/overview.svg',
     'scripts/build-catalog.mjs', 'scripts/build-previews.mjs', 'scripts/validate.mjs',
     'scripts/bitwig.mjs', 'scripts/export-bitwig.mjs', 'scripts/package-release.py',
-    'tests/bitwig.test.mjs', 'tests/catalog.test.mjs',
+    'tests/bitwig.test.mjs', 'tests/catalog.test.mjs', 'tests/browser-export.test.mjs',
 ]
 catalog = json.loads((ROOT / 'catalog.json').read_text())
 for theme in catalog['themes']:

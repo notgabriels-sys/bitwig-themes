@@ -13,7 +13,7 @@
     <link rel="canonical" href="https://notgabriels-sys.github.io/bitwig-themes/">
     <link rel="stylesheet" href="assets/gallery.css">
     <title>Bitwig Themes — 50 open-source palettes</title>
-    <script src="assets/gallery.js" defer></script>
+    <script type="module" src="assets/gallery.js"></script>
   </head>
   <body>
     <a class="skip-link" href="#collection">Skip to themes</a>
@@ -73,6 +73,14 @@
               <p class="export-note">The JSON is a palette source. Export a <code>.bte</code> using a default theme from your installed Bitwig version.</p>
               <div id="copy-fallback" class="copy-fallback" hidden><label for="command-text">Select and copy this command:</label><textarea id="command-text" rows="4" readonly spellcheck="false"></textarea></div>
               <p id="action-status" class="action-status" role="status" aria-live="polite"></p>
+              <section class="browser-export" aria-labelledby="browser-export-title">
+                <div class="browser-export-heading"><h4 id="browser-export-title">Export here in your browser</h4><button id="clear-base-theme" class="clear-base" type="button" disabled>Clear file</button></div>
+                <label class="base-file-label" for="base-theme-file">Your version’s complete <code>default.bte</code></label>
+                <input id="base-theme-file" class="base-file-input" type="file" accept=".bte" aria-describedby="browser-export-note browser-export-status">
+                <p id="browser-export-note" class="export-note">Your file stays in this browser. Nothing is uploaded. No Node installation needed. Maximum 2 MiB.</p>
+                <a id="download-bte" class="action primary-action" aria-disabled="true" tabindex="-1">Download selected theme .bte</a>
+                <p id="browser-export-status" class="browser-export-status" role="status" aria-live="polite">Choose your version’s complete default.bte to enable export.</p>
+              </section>
             </div>
           </div>
         </section>
