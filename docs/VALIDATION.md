@@ -1,6 +1,6 @@
 # Validation scope
 
-Release 0.1.1 adds browser-local export to the initial public preview. Palette data can be inspected and reused now. Visual compatibility of the full set inside Bitwig remains unverified.
+Release 0.1.1 adds browser-local export to the initial public preview. Palette data can be inspected and reused now. The original release evidence below is supplemented by the version-specific host smoke checks recorded on 14 October 2026.
 
 ## Browser export update · 0.1.1
 
@@ -8,7 +8,7 @@ All **34 tests passed** on macOS with Node.js 26.0.0: the 20 original regression
 
 Manual browser checks used an explicitly synthetic 220-key base, not a Bitwig factory default. Selecting Ultraviolet enabled `ultraviolet.bte`; selecting Ember regenerated `ember.bte`. The actual downloaded Ember file matched the shared renderer byte for byte. A sparse input displayed its validation error and removed the previous download; Clear file reset the state. The 390×844 viewport had no horizontal overflow. This verifies browser export behaviour, not visual Bitwig compatibility.
 
-Both browser and CLI use the unchanged shared BTE renderer; the version-specific structural evidence below continues to describe that renderer. No new host acceptance is claimed.
+Both browser and CLI use the unchanged shared BTE renderer; the version-specific structural evidence below continues to describe that renderer. Those browser checks do not establish host acceptance; the later native host checks are described separately below.
 
 ## Automated checks
 
@@ -46,9 +46,19 @@ Minimum measured opaque token contrast across the 50 palettes: primary text on r
 
 The base files and 100 generated `.bte` exports stay local and are excluded from the repository and release. Windows and Linux application installation and visual behaviour have not been checked.
 
-## Pending host evidence
+## Native host smoke checks · 14 October 2026
 
-The collection has not been applied to the running DAW as part of this repository task. A pre-existing local theme or a Granular Freeze build does not prove these new Bitwig exports have been tested. No application restart, active theme replacement or JAR patch is performed by this repository's exporter.
+Bitwig Studio **6.1.4 on macOS**, patched with the separately obtained community Theme Editor **2.3.2**. The full original 0.1.1 catalogue was exported using that installed version's native default: 50 exports, each retaining 273 colour keys, alpha and Gradient, with 143 semantic keys mapped.
+
+All 50 themes were loaded into the real host and their settings-view captures reviewed for colour rendering, selected/unselected controls and visible labels. Arrangement smoke checks and representative Porcelain and Violet Signal mixer views were also reviewed. No obvious unreadable controls were observed in these reviewed views. This was a blank New 1 project with transport stopped, not audio processing or exhaustive device/project testing.
+
+The current personal theme was backed up before testing and restored byte for byte afterwards; the restored graphite/silver/violet interface was observed. Some initial captures were stale because of native UI focus/refresh timing; they were excluded and replaced by individually confirmed captures. One normal quit/relaunch was used; no force quit or discard of music work occurred.
+
+These are bounded visual smoke checks, not WCAG certification, user acceptance, endorsement, or compatibility evidence for other versions/platforms. Windows and Linux installation remains untested. The full per-theme captures and original defaults/exports remain local; only the two representative captures below are published. The exporter itself performs no restart, live-theme replacement or JAR patch.
+
+![Real Bitwig 6.1.4 mixer capture with Porcelain, blank test project and stopped transport](../assets/host-6.1.4/porcelain.jpg)
+
+![Real Bitwig 6.1.4 mixer capture with Violet Signal, blank test project and stopped transport](../assets/host-6.1.4/violet-signal.jpg)
 
 The gallery shows exact published palette colours. It contains no captured Bitwig interface. A passing token contrast check does not establish WCAG conformance for Bitwig: text roles, stock colours, transparency and layered states may produce different results in the actual application.
 

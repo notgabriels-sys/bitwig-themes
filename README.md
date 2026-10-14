@@ -21,7 +21,11 @@ node scripts/export-bitwig.mjs --theme terminal --base /path/to/default.bte --ou
 
 Replace `/path/to/default.bte` with the file created for your Bitwig version. Import the generated file with Theme Editor. Read the [installation and recovery guide](docs/INSTALL.md) before applying it.
 
-**Compatibility:** this collection targets the unofficial Bitwig Theme Editor workflow. It is not an official Bitwig theme pack or a native Preferences import. The exporter is structurally checked against locally generated Bitwig 6.1 and 6.1.1 defaults; the 50 resulting themes have **not been visually verified in Bitwig**. Gallery images are accurate palette studies, not DAW or plug-in screenshots. See [validation scope](docs/VALIDATION.md).
+**Compatibility:** this collection targets the unofficial Bitwig Theme Editor workflow. It is not an official Bitwig theme pack or a native Preferences import. The exporter is structurally checked against locally generated Bitwig 6.1, 6.1.1 and 6.1.4 defaults. All 50 themes received visual smoke checks on macOS in Bitwig Studio 6.1.4 on 14 October 2026; this is not exhaustive device, project or accessibility testing. Windows and Linux installation remains untested. Gallery images are accurate palette studies, not DAW or plug-in screenshots. See [validation scope](docs/VALIDATION.md).
+
+## Packaged download
+
+The original collection remains free under MIT. The [€9 one-time packaged download on Gumroad](https://notgabriel.gumroad.com/l/graphite-50-bitwig-themes) offers a convenient archive and supports the project. It includes the same nonexclusive source, gallery, exporter and installation/recovery guide. Applicable taxes may be added at checkout.
 
 ## The collection
 
