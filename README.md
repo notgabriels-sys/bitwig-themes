@@ -68,6 +68,8 @@ Useful feedback includes the exact Bitwig version, Theme Editor version, operati
 
 Made by [Gabriel García Alonso](https://github.com/notgabriels-sys), a sound engineer, producer and live performer based in Berlin, working as Hologram People and with Lack of Fate / Fate Through. These colours grew out of building a comfortable visual language for music tools.
 
+Graphite was created using Codex, including its development, documentation and launch copy.
+
 If this collection helps your sessions, a star or a link back helps other musicians find it. Forks and thoughtful contributions are welcome.
 
 Independent community project. Bitwig is a trademark of Bitwig GmbH; no affiliation or endorsement is implied. The MIT licence covers the original palettes, exporter, documentation and gallery here. Bitwig and the separately obtained Theme Editor retain their own licences.

@@ -1,5 +1,7 @@
 # Palette provenance
 
+Graphite was created using Codex, including its development, documentation and launch copy.
+
 The collection begins with the current local Granular Freeze appearance catalogue, inspected on 10 September 2026: `mini-vsts/drum-common/include/drumcommon/VstThemeCatalog.hpp`, included by `src/GranularFreezeAppearance.h`.
 
 Source file SHA-256 at extraction:
